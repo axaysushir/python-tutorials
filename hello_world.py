@@ -21,6 +21,7 @@
 # This is the basic hello world programme in python syntax
 
 print('Hello folks 😎 !! \nThis is your first Python Turorial')
+# \n is used to add new line in python and used inside of strings
 
 # To run this just open teminal in current directory and type hello_world.py
 # Output looks like this:
