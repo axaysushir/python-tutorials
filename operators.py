@@ -72,3 +72,8 @@ if big_list.count(x) == 10 and big_list.count(y) == 10:
 # There are sevarla advanced operator are used in python for complex operations such as
 # bit operation, biwise manipulation etc. Complex mathemetical calculations for machine learnng models
 # This is beyond the scope of this tutorial but we have look at it after.
+
+x= 1
+if x >> 1:
+    print(True)
+else: print(False)
