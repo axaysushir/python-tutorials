@@ -18,6 +18,12 @@ cubed = 2 ** 3
 print(squared)
 print(cubed)
 
+# division
+num1 = 35
+num2 = 7
+x = num1 / num2
+print(x) # it return 5 as result
+
 # Using Operators with Strings
 # Python supports concatenating strings using the addition operator:
 helloworld = "hello" + " " + "world"
@@ -62,3 +68,7 @@ if x_list.count(x) == 10 and y_list.count(y) == 10:
     print("Almost there...")
 if big_list.count(x) == 10 and big_list.count(y) == 10:
     print("Great!")
+
+# There are sevarla advanced operator are used in python for complex operations such as
+# bit operation, biwise manipulation etc. Complex mathemetical calculations for machine learnng models
+# This is beyond the scope of this tutorial but we have look at it after.
