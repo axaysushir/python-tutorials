@@ -22,7 +22,8 @@ print(myfloat)
 
 # Strings in Python
 # Strings are defined either with a single quote or a double quotes.
-
+# Here string "This is your first string in python" is assigned to variable called myString.
+# we can any numbers, strings to our variables in python.
 myString = "This is your first string in Python"
 print(myString)
 # This is Spana's first string in Python
@@ -61,3 +62,11 @@ two = 2
 hello = "hello"
 
 print(one + two + hello)
+
+# Advanced variables in python
+myObject = {} # this is empty object assigned to variable myObject
+myArray = [] # this is empty array assigned to variable myArray, then we use it later to store value in that array
+
+myArray.append([1, 2, 3, 'a', 'b', 'c']) # append only take single argument at a time
+print(myArray)
+# [[1, 2, 3, 'a', 'b', 'c']]
