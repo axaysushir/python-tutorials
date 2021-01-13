@@ -77,3 +77,8 @@ x= 1
 if x >> 1:
     print(True)
 else: print(False)
+
+# There is lots of other operators we can use in python other then mathmetical operators.
+# Like equality operators. for ex. ==, != 
+# comparision operators like >, < or >=, <=, !<, !>
+# we can talk about this in later parts, it is not beginner friendly yet.
