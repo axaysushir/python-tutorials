@@ -80,3 +80,14 @@ for i in range(1, 10):
     print(i)
 else:
     print("this is not printed because for loop is terminated because of break but not due to fail in condition")
+
+
+data = 12345
+
+if data != 12345:
+    print('Data is not equal to 12345')
+else:
+    print('Data is 12345')
+
+# in this example we use != operator to check condition, that if data value is not equal to 12345 the do something
+# other wise do another operation that we declared in else statement
