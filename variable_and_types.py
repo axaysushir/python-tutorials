@@ -15,6 +15,7 @@ print(myInteger)
 
 # TO definded floating point numbers you may use following approach
 myfloat = 7.0
+myfloat = 1.12345
 print(myfloat)
 myfloat = float(7)
 print(myfloat)
@@ -53,7 +54,7 @@ print(helloworld)
 
 # Assignments can be done on more than one variable "simultaneously" on the same line like this
 a, b = 3, 4 
-isha, nisha = "Testing Engineer", "Software developer"
+isha, nisha, tanisha = "Testing Engineer", "Software developer", "Product Manager"
 
 # Mixing operators between numbers and strings is not supported:
 # This will not work!
