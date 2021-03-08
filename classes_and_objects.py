@@ -9,6 +9,7 @@ class Solution(object):
 
 class myClass:
     variable = 'hello'
+    name = "Jhon"
 
     def function(self):
         print("This is a message inside class.")
@@ -19,3 +20,6 @@ myObject = myClass()
 x = myObject.variable
 print(x)
 # this prints "Hello" to console.
+
+y = myObject.name
+print(y) # this prints "Jhon" to console.
