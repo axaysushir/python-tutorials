@@ -10,6 +10,8 @@ class Solution(object):
 class myClass:
     variable = 'hello'
     name = "Jhon"
+    email = "jhon@email.com"
+    address = "Bangalore"
 
     def function(self):
         print("This is a message inside class.")
@@ -23,3 +25,7 @@ print(x)
 
 y = myObject.name
 print(y) # this prints "Jhon" to console.
+
+z = [myObject.name, myObject.email, myObject.address]
+print(z)
+# ['Jhon', 'jhon@email.com', 'Bangalore']
