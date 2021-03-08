@@ -47,3 +47,6 @@ my_function_with_args("John Doe", "a great year!")
 
 # after this line x will hold the value 3!
 x = sum_two_numbers(1,2)
+
+def multiply_two_numbers(a, b):
+    return a * b
