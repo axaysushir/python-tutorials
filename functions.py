@@ -50,3 +50,13 @@ x = sum_two_numbers(1,2)
 
 def multiply_two_numbers(a, b):
     return a * b
+
+# function for find fibonaci series of nth number
+def fibonac(n):
+    if n == 1 or n == 2:
+        res =  1
+    else:
+        res = fibonac(n-1) + fibonac(n-2)
+    return res
+
+fibonac(8)
