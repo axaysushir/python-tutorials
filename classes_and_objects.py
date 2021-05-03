@@ -12,6 +12,7 @@ class myClass:
     name = "Jhon"
     email = "jhon@email.com"
     address = "Bangalore"
+    phone = "+919123456789"
 
     def function(self):
         print("This is a message inside class.")
@@ -26,6 +27,6 @@ print(x)
 y = myObject.name
 print(y) # this prints "Jhon" to console.
 
-z = [myObject.name, myObject.email, myObject.address]
+z = [myObject.name, myObject.email, myObject.address, myObject.phone]
 print(z)
-# ['Jhon', 'jhon@email.com', 'Bangalore']
+# ['Jhon', 'jhon@email.com', 'Bangalore', '+919123456789']
